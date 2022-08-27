@@ -1,0 +1,63 @@
+/*Immagine in background*/
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main{
+   color: white;
+ }
+
+.titolo{
+  text-align: center;
+  font-weight: bold;
+  color: chartreuse;
+ }
+
+/*Logo*/
+.logostyle {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+/*Contenitore del testo*/
+.contenitore{
+  box-sizing: border-box;
+  margin-top: 2%;
+  margin-right: 13%;
+  margin-bottom: 13%;
+  margin-left: 13%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 200px solid transparent;
+  opacity: 1;
+}
+
+/*Riga dei pulsanti/comandi*/
+.rigapulsanti{
+  background-color: rgb(1,222,2);
+  text-align: center;
+}
+
+.mezzi{
+  font-family: "Arial", sans-serif;
+  display: inline-block;
+  line-height: 0px;
+}
+
+/*Barrette di carica*/
+#Carica1{
+  width:250px;
+  height:20px;
+  background-color: rgb(221, 166, 79);
+ }
+#Carica2{
+  width:500px;
+  height:20px;
+  background-color: rgb(35, 165, 30);
+}
+#Carica3{
+  width:120px;
+  height:20px;
+  background-color: rgb(167, 67, 58);
+}
