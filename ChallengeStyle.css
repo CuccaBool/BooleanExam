@@ -8,30 +8,32 @@ main{
    color: white;
  }
 
+ /*Contenitore del testo*/
+ .contenitore{
+   box-sizing: border-box;
+   width: 80%;
+   height: 85%;
+   margin-top: 2%;
+   margin-right: 13%;
+   margin-bottom: 13%;
+   margin-left: 13%;
+   background-color: rgba(0, 0, 0, 0.5);
+   border: 200px solid transparent;
+   opacity: 1;
+ }
+
+ /*Logo*/
+.logostyle {
+   display: block;
+   margin: auto;
+   width: 30%;
+ }
+
 .titolo{
   text-align: center;
   font-weight: bold;
   color: chartreuse;
  }
-
-/*Logo*/
-.logostyle {
-  display: block;
-  margin: auto;
-  width: 30%;
-}
-
-/*Contenitore del testo*/
-.contenitore{
-  box-sizing: border-box;
-  margin-top: 2%;
-  margin-right: 13%;
-  margin-bottom: 13%;
-  margin-left: 13%;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 200px solid transparent;
-  opacity: 1;
-}
 
 /*Riga dei pulsanti/comandi*/
 .rigapulsanti{
